@@ -4,16 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Datalist</title>
+    <title>Document</title>
 </head>
 <body>
     <h1>Control Datalist</h1>
-    <!--Este control no es visible-->
+    <!-- ESTE CONTROL NO ES VISIBLE -->
     <datalist id="datanombres">
-        <option value=""></option>
-
-         
-    
+        <option value="Ana"/>
+        <option value="Adrian"/>
+        <option value="Anita"/>
+        <option value="Raul"/>
+        <option value="Ricardo"/>
+        <option value="Rosa"/>
+        <option value="Vanesa"/>
+        <option value="Veronica"/>
+        <option value="Vanessa"/>
     </datalist>
+    <form>
+        <label>Introduzca su nombre:</label>
+        <input type="text" name="cajanombre" list="datanombres"/>
+        <button type="submit">
+            Enviar datos
+        </button>
+    </form>
 </body>
 </html>

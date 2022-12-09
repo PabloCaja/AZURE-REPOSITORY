@@ -1,0 +1,23 @@
+h1{
+    color: white;
+    background-color: blue;
+}
+
+/* ESTILO DE CLASES */
+.verde {
+    background-color: lightgreen;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* ESTILOS DE ID */
+#tituloprincipal {
+    background-color: darkviolet;
+    color:yellow
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
