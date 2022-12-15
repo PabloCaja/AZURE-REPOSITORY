@@ -3,7 +3,7 @@ def saludo(nombre):
     print("Bienvenido Mr/Mrs " + nombre)
 
 def despedida(nombre, dia):
-    print("Ha sido un placer hoy " + dia + ", Mr/Mrs " + nombre)
+    print("Ha sido un placer hoy es dia " + dia + ", Mr/Mrs " + nombre)
 
 # PROGRAMA PRINCIPAL
 print("Ejemplo métodos con parámetros")
