@@ -6,8 +6,6 @@ def mostrarDoble():
         print("El doble del número es " + str(doble))
     except ValueError:
         print("Error, debe introducir un número")
-    except ZeroDivisionError():
-        print("La division da cero loko")    
         mostrarDoble()
 
 def dividirNumeros():
@@ -15,7 +13,6 @@ def dividirNumeros():
         print("Introduzca número 1:")
         numero1 = int(input())
         print("Introduzca número 2: ")
-        
         numero2 = int(input())
         division = numero1 / numero2
         print("La división es " + str(division))

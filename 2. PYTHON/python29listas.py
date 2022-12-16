@@ -31,5 +31,4 @@ numeros = [20,4,14,55,52,66,99,12]
 numeros.sort( reverse = True )
 for num in numeros:
     print(num)
-print(mostrarNombres())    
 print("Fin de programa")
