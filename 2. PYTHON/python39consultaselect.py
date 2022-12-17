@@ -1,12 +1,12 @@
 import pyodbc
 
 print("Primera consulta SELECT Python")
-servidor = "LOCALHOST"
+servidor = "DESKTOP-DHO8OFU\SQLEXPRESS"
 bbdd = "HOSPITAL"
-usuario = "SA"
+usuario = "DESKTOP-DHO8OFU\paulb"
 password = ""
 # CREAMOS NUESTRA CADENA DE CONEXION
-connectioString = "DRIVER={ODBC Driver 17 for SQL Server}; SERVER=" + servidor + "; DATABASE=" + bbdd + ";UID=" + usuario + "; PWD=" + password
+connectioString = "DRIVER={ODBC Driver 17 for SQL Server}; SERVER=" + servidor + "; DATABASE=" + bbdd + "; UID=" + usuario + "; PWD=" + password
 # CONECTAMOS CON NUESTRA BBDD
 print("Intentando conectar....")
 conexion = pyodbc.connect(connectioString)
@@ -16,7 +16,7 @@ print("Conectado a SQL Server")
 cursor = conexion.cursor()
 # EL CURSOR MANEJA TANTO CONSULTAS DE SELECCION 
 # COMO CONSULTAS DE ACCION, LE ES INDIFERENTE
-# CREAMOS NUESTRA CONSULTA SELECT
+# CREAMOS NUESTRA CONSULTA SELECT python39consultaselect.py
 sql = "select * from DEPT"
 # EL CURSOR ES EL ENCARGADO DE EJECUTAR LA CONSULTA
 cursor.execute(sql)

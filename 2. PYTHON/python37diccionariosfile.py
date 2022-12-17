@@ -18,7 +18,7 @@ file.close()
 # APPEND
 # UN OBJETO DICCIONARIO SE CREA MEDIANTE LLAVES
 newPlayer = {
-    "numero": 99,
+    "numero": 69,
     "nombre": "Error Garcia",
     "posicion": "Defensa de nada",
     "edad": 21,
