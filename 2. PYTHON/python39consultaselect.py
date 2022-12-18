@@ -1,9 +1,9 @@
 import pyodbc
 
 print("Primera consulta SELECT Python")
-servidor = "DESKTOP-DHO8OFU\SQLEXPRESS"
+servidor = "LOCALHOST\SQLEXPRESS"
 bbdd = "HOSPITAL"
-usuario = "DESKTOP-DHO8OFU\paulb"
+usuario = "SA"
 password = ""
 # CREAMOS NUESTRA CADENA DE CONEXION
 connectioString = "DRIVER={ODBC Driver 17 for SQL Server}; SERVER=" + servidor + "; DATABASE=" + bbdd + "; UID=" + usuario + "; PWD=" + password
