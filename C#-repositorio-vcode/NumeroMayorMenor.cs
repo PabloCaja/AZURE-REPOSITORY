@@ -1,8 +1,8 @@
-﻿namespace FUNDAMENTOS
+namespace FUNDAMENTOS
 {
     internal class NumerosTres
     {
-        static void Numeros(string[] args)
+        static void Main(string[] args)
         {
             NumeroMayorMenor();
         }
@@ -51,6 +51,3 @@
         }
     }
 }
-
-
-
