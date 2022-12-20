@@ -13,6 +13,7 @@ else:
         numero = int(letra)
         # La variable i comienza en 0 y nosotros
         # necesitamos multiplicar por su posición real
+        # 0764526413
         posicion = i + 1
         operacion = numero * posicion
         suma = suma + operacion

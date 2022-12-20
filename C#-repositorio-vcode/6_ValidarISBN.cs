@@ -1,4 +1,4 @@
-﻿namespace FUNDAMENTOS
+namespace FUNDAMENTOS
 {
     internal class Program
     {
