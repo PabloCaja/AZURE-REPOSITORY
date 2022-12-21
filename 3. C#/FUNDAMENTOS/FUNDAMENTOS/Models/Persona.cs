@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace FUNDAMENTOS.Models
 {
+    public enum Paises { España, Alemania, Francia, Argentina }
     public class Persona
     {
-        public enum Paises { España, Alemania, Francia, Argentina }
+        public Paises Nacionalidad { get; set; }
         public string Nombre { get; set; }
         public string Apellido { get; set; }
         //EN LAS PROPIEDADES EXTENDIDAS, QUE SON AQUELLAS 
@@ -21,7 +22,7 @@ namespace FUNDAMENTOS.Models
             get
             {
                 //SE DEVUELVE EL CAMPO PRIVADO
-                return _Edad;
+                return this._Edad;
             }
             set
             {
@@ -34,9 +35,47 @@ namespace FUNDAMENTOS.Models
                 }
                 else
                 {
-                    _Edad = value;
+                    this._Edad = value;
                 }
+
             }
+        }
+        private string[] _Descripciones = new string[3];
+        //public string[] this[]
+
+        public override string ToString()
+        {
+            return this.Nombre + " " + this.Apellido + ", Edad: " + this.Edad;
+        }
+
+        public virtual string GetNombreCompleto()
+        {
+            return this.Nombre + " " + this.Apellido;
+        }
+        //POLIMORFISMO
+        public string GetNombreCompleto(bool orden)
+        {
+            if(orden == true)
+            {
+                return this.Apellido + " " + this.Nombre;    
+            }
+            else
+            {
+                return this.Nombre + " " + this.Apellido;
+            }
+        }
+        public void GetNombreCompleto(int num1, int num2) { }
+        public void GetNombreCompleto(int num1, int num2, int num3) { }
+
+        public Persona()
+        {
+            this.Nacionalidad = Paises.Alemania;
+        }
+
+        public Persona(String nombre, string apellidos)
+        {
+            this.Nombre = nombre;
+            this.Apellido = apellidos;
         }
 
     }
