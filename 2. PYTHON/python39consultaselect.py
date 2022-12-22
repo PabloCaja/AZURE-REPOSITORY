@@ -6,10 +6,10 @@ bbdd = "HOSPITAL"
 usuario = "SA"
 password = ""
 # CREAMOS NUESTRA CADENA DE CONEXION
-connectioString = "DRIVER={ODBC Driver 17 for SQL Server}; SERVER=" + servidor + "; DATABASE=" + bbdd + "; UID=" + usuario + "; PWD=" + password
+connection = 'DRIVER={SQL Server}; SERVER=LOCALHOST\SQLEXPRESS; DATABASE=HOSPITAL; UID=sa; PWD=2699'
 # CONECTAMOS CON NUESTRA BBDD
 print("Intentando conectar....")
-conexion = pyodbc.connect(connectioString)
+#conexion = pyodbc.connect(connectioString)
 print("Conectado a SQL Server")
 # TENEMOS UNA CONEXION ABIERTA, PODEMOS REALIZAR CONSULTAS
 # CREAMOS UN CURSOR PARA REALIZAR UNA CONSULTA
