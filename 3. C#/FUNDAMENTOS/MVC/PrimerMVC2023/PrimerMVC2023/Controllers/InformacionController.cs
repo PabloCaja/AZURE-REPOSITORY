@@ -8,5 +8,9 @@ namespace PrimerMVC2023.Controllers
         {
             return View();
         }
+        public IActionResult ControllerView()
+        {
+            return View();
+        }
     }
 }
