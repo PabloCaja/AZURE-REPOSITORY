@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PrimerMVC2023.props" />
+</Project>

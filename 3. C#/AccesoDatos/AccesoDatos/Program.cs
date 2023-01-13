@@ -1,16 +1,198 @@
 ﻿using System.Data.SqlClient;
+using AccesoDatos.Models;
+using AccesoDatos.Repositories;
 
 namespace AccesoDatos
 {
     internal class Program
     {
+        //CREAMOS LA CLASE REPOSITORY
+        //LO HACEMOS A NIVEL DE CLASE PARA UTILIZAR EL OBJETO EN 
+        //DISTINTOS METODOS, COMO POR EJEMPLO, INSERTAR O ELIMINAR
+        static RepositoryDepartamentos repo = new RepositoryDepartamentos();
+
         static void Main(string[] args)
         {
             //LeerRegistrosDept();
-            InsertarDatosDept();
+            //InsertarDatosDept();
             //EliminarDeptParameters();
             //LeerRegistrosDept();
             //MostrarEmpleadosDepartamento();
+            //ModificarSalas();
+            //MostrarEnfermos();
+            //EliminarEnfermo();
+            //MostrarEnfermos();
+            //InsertDepartamentoRepo();
+            //UpdateDepartamento();
+            //DeleteDepartamento();
+            //MostrarDepartamentos();
+            AppCrudDepartamentos();
+        }
+
+        static void AppCrudDepartamentos()
+        {
+            int opcion = -1;
+            while (opcion != 4)
+            {
+                Console.WriteLine("------CRUD DEPARTAMENTOS------");
+                MostrarDepartamentos();
+                Console.WriteLine("---------------------");
+                Console.WriteLine("1.- Insertar Departamento");
+                Console.WriteLine("2.- Modificar departamento");
+                Console.WriteLine("3.- Eliminar departamento");
+                Console.WriteLine("4.- Salir de App");
+                Console.WriteLine("5.- mostrar departamentos ");
+                Console.WriteLine("Seleccione una opción");
+                opcion = int.Parse(Console.ReadLine());
+                if (opcion == 1)
+                {
+                    InsertDepartamentoRepo();
+                }
+                else if (opcion == 2)
+                {
+                    UpdateDepartamento();
+                }
+                else if (opcion == 3)
+                {
+                    DeleteDepartamento();
+                }
+                else if (opcion == 4)
+                {
+                    Console.WriteLine("Cerrando Aplicación");
+                }
+                else if (opcion == 5)
+                {
+                    Console.WriteLine("Departamentos: ");
+                    MostrarDepartamentos();
+                }
+                else
+                {
+                    Console.WriteLine("Opción incorrecta");
+                }
+            }
+        }
+
+        static void MostrarDepartamentos()
+        {
+            List<Departamento> departamentos = repo.GetDepartamentos();
+            foreach (Departamento dept in departamentos)
+            {
+                Console.WriteLine(dept.IdDepartamento + " - " + dept.Nombre + " - " + dept.Localidad);
+            }
+        }
+
+        static void UpdateDepartamento()
+        {
+            Console.WriteLine("Introduzca ID de departamento a modificar");
+            int iddept = int.Parse(Console.ReadLine());
+            Console.WriteLine("Introduzca nuevo NOMBRE de departamento");
+            string nombre = Console.ReadLine();
+            Console.WriteLine("Introduzca nueva LOCALIDAD");
+            string localidad = Console.ReadLine();
+            int modificados = repo.UpdateDepartamento(iddept, nombre, localidad);
+            Console.WriteLine("Departamentos modificados: " + modificados);
+        }
+
+        static void DeleteDepartamento()
+        {
+            Console.WriteLine("Introduzca ID de departamento para eliminar");
+            int iddept = int.Parse(Console.ReadLine());
+            int eliminados = repo.DeleteDepartamento(iddept);
+            Console.WriteLine("Departamentos eliminados: " + eliminados);
+        }
+
+        static void InsertDepartamentoRepo()
+        {
+            Console.WriteLine("Introduzca ID departamento");
+            int iddept = int.Parse(Console.ReadLine());
+            Console.WriteLine("Introduzca NOMBRE departamento");
+            string nombre = Console.ReadLine();
+            Console.WriteLine("Introduzca LOCALIDAD");
+            string localidad = Console.ReadLine();
+            int insertados = repo.InsertarDepartamento(iddept, nombre, localidad);
+            Console.WriteLine("Departamentos insertados: " + insertados);
+        }
+
+        static void EliminarEnfermo()
+        {
+            string connectionString = @"Data Source=LOCALHOST\SQLEXPRESS;Initial Catalog=HOSPITAL;Persist Security Info=True;User ID=sa";
+            SqlConnection cn = new SqlConnection(connectionString);
+            SqlCommand com = new SqlCommand();
+            Console.WriteLine("Introduzca INSCRIPCION para eliminar enfermo");
+            int inscripcion = int.Parse(Console.ReadLine());
+            string sql = "DELETE FROM ENFERMO WHERE INSCRIPCION=@INSCRIPCION";
+            SqlParameter paminscripcion = new SqlParameter("@INSCRIPCION", inscripcion);
+            com.Parameters.Add(paminscripcion);
+            com.Connection = cn;
+            com.CommandType = System.Data.CommandType.Text;
+            com.CommandText = sql;
+            cn.Open();
+            int afectados = com.ExecuteNonQuery();
+            cn.Close();
+            com.Parameters.Clear();
+            Console.WriteLine("Enfermos eliminados: " + afectados);
+        }
+
+        static void MostrarEnfermos()
+        {
+            string connectionString = @"Data Source=LOCALHOST\SQLEXPRESS;Initial Catalog=HOSPITAL;Persist Security Info=True;User ID=sa";
+            SqlConnection cn = new SqlConnection(connectionString);
+            SqlCommand com = new SqlCommand();
+            SqlDataReader reader;
+            string sql = "SELECT INSCRIPCION, APELLIDO, DIRECCION FROM ENFERMO";
+            com.Connection = cn;
+            com.CommandType = System.Data.CommandType.Text;
+            com.CommandText = sql;
+            cn.Open();
+            reader = com.ExecuteReader();
+            while (reader.Read())
+            {
+                string inscripcion = reader["INSCRIPCION"].ToString();
+                string apellido = reader["APELLIDO"].ToString();
+                string direccion = reader["DIRECCION"].ToString();
+                Console.WriteLine(inscripcion + " - " + apellido + ", Dirección: " + direccion);
+            }
+            reader.Close();
+            cn.Close();
+        }
+
+
+        static void ModificarSalas()
+        {
+            string connectionString = @"Data Source=LOCALHOST\SQLEXPRESS;Initial Catalog=HOSPITAL;Persist Security Info=True;User ID=sa";
+            SqlConnection cn = new SqlConnection(connectionString);
+            SqlCommand com = new SqlCommand();
+            SqlDataReader reader;
+            string sql = "select DISTINCT sala_cod, nombre from sala";
+            com.Connection = cn;
+            com.CommandType = System.Data.CommandType.Text;
+            com.CommandText = sql;
+            cn.Open();
+            reader = com.ExecuteReader();
+            while (reader.Read())
+            {
+                string salacod = reader["SALA_COD"].ToString();
+                string nombre = reader["NOMBRE"].ToString();
+                Console.WriteLine(salacod + " - " + nombre);
+            }
+            reader.Close();
+            //NO CERRAMOS LA CONEXION PORQUE SEGUIMOS HACIENDO CONSULTAS
+            Console.WriteLine("Seleccione un ID de sala para modificar");
+            int idsala = int.Parse(Console.ReadLine());
+            Console.WriteLine("Introduzca el nuevo nombre de sala");
+            string newname = Console.ReadLine();
+            sql = "UPDATE SALA SET NOMBRE=@NEWNAME WHERE SALA_COD=@SALACOD";
+            SqlParameter pamid = new SqlParameter("@SALACOD", idsala);
+            SqlParameter pamnombre = new SqlParameter("@NEWNAME", newname);
+            com.Parameters.Add(pamnombre);
+            com.Parameters.Add(pamid);
+            com.CommandText = sql;
+            //LA CONEXION ESTA ABIERTA, POR LO QUE SIMPLEMENTE VAMOS A EJECUTAR
+            //LA CONSULTA
+            int afectados = com.ExecuteNonQuery();
+            cn.Close();
+            com.Parameters.Clear();
+            Console.WriteLine("Registros modificados: " + afectados);
         }
 
         static void MostrarEmpleadosDepartamento()
