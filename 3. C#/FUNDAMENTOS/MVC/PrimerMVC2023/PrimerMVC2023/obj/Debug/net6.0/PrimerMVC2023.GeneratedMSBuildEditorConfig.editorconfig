@@ -28,8 +28,36 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaW5mb3JtYWNpb25cQ29udHJvbGxlclZpZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/PrimerMVC2023/PrimerMVC2023/Views/informacion/ControllerViewModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaW5mb3JtYWNpb25cQ29udHJvbGxlclZpZXdNb2RlbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/PrimerMVC2023/PrimerMVC2023/Views/informacion/ControllerViewModelList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaW5mb3JtYWNpb25cQ29udHJvbGxlclZpZXdNb2RlbExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/PrimerMVC2023/PrimerMVC2023/Views/informacion/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaW5mb3JtYWNpb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/PrimerMVC2023/PrimerMVC2023/Views/informacion/ViewControllerGet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaW5mb3JtYWNpb25cVmlld0NvbnRyb2xsZXJHZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/PrimerMVC2023/PrimerMVC2023/Views/informacion/ViewControllerPost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaW5mb3JtYWNpb25cVmlld0NvbnRyb2xsZXJQb3N0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/PrimerMVC2023/PrimerMVC2023/Views/informacion/ViewControllerPostModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcaW5mb3JtYWNpb25cVmlld0NvbnRyb2xsZXJQb3N0TW9kZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/PrimerMVC2023/PrimerMVC2023/Views/Practicas/ListaComics.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJhY3RpY2FzXExpc3RhQ29taWNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/PrimerMVC2023/PrimerMVC2023/Views/Practicas/Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJhY3RpY2FzXE1lbnUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/PrimerMVC2023/PrimerMVC2023/Views/Prueba/Index.cshtml]

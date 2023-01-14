@@ -1,8 +1,29 @@
-﻿@*
-    AQUI SE ESCRIBEN LOS COMENTARIOS EN RAZOR
-*@
+﻿<h1>Menu Informacion entre componentes</h1>
 
-@{
-    int numero = 14;
-    string texto = "Texto creado en Razor";
-}
+<li>
+	<a asp-controller="Informacion" asp-action="ControllerView">
+		Informacion controller -> View
+
+	</a><br />
+	<a asp-controller="Informacion" asp-action="ControllerViewModel">
+		Informacion controller View Model
+
+	</a><br />
+    <a asp-controller="Informacion" asp-action="ControllerViewModelList">
+		Informacion controller View Model List
+
+	</a><br />
+	<a asp-controller="Informacion" 
+	 asp-action="ViewControllerGet">
+		Informacion View Controller GET
+
+	</a><br />
+
+	<a asp-controller="Informacion"
+            asp-action="ViewControllerPost">
+		Información View Controller POST
+	</a>
+	 
+
+
+</li>
