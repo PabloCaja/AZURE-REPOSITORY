@@ -56,6 +56,16 @@ namespace PrimerMVC2023.Controllers
                + cajaedad;
             return View();
         }
+        public IActionResult ViewControllerPostModel()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult ViewControllerPostModel(Comic comic)
+        {
+         
+            return View(comic);
+        }
 
     }
 }

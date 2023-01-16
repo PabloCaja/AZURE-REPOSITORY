@@ -1,4 +1,6 @@
-﻿<h1>
+﻿@model Comic
+
+<h1>
     Información Comics POST
 </h1>
 
@@ -13,3 +15,13 @@
         Crear Comic
     </button>
 </form>
+
+@if (Model != null){
+    <div class="card" style="width: 18rem;float:left">
+      <img class="card-img-top" src="@Model.Imagen" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">@Model.Nombre</h5>
+        <p class="card-text">@Model.Descripcion</p>
+      </div>
+    </div>
+}
