@@ -1,0 +1,7 @@
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\PrimerCoreAzure\PrimerCoreAzure\obj\Release\net6.0\PubTmp\Out\PrimerCoreAzure.exe
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\PrimerCoreAzure\PrimerCoreAzure\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\PrimerCoreAzure\PrimerCoreAzure\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\PrimerCoreAzure\PrimerCoreAzure\obj\Release\net6.0\PubTmp\Out\PrimerCoreAzure.dll
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\PrimerCoreAzure\PrimerCoreAzure\obj\Release\net6.0\PubTmp\Out\PrimerCoreAzure.deps.json
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\PrimerCoreAzure\PrimerCoreAzure\obj\Release\net6.0\PubTmp\Out\PrimerCoreAzure.runtimeconfig.json
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\PrimerCoreAzure\PrimerCoreAzure\obj\Release\net6.0\PubTmp\Out\PrimerCoreAzure.pdb
