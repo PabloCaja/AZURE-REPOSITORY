@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AccesoDatosCoree2023.props" />
+</Project>

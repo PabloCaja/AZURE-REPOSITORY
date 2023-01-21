@@ -1,0 +1,21 @@
+﻿<h1>
+    Enviar información View -> Controller GET
+</h1>
+
+<h2 style="color:red">
+    @ViewData["MENSAJE"]
+</h2>
+
+<a asp-controller="Informacion"
+   asp-action="ViewControllerGet"
+   asp-route-nombre="Alumno Net Core"
+   asp-route-edad="20">
+    Enviar datos
+</a>
+
+<a asp-controller="Informacion"
+   asp-action="ViewControllerGet"
+   asp-route-nombre="Soy otra persona"
+   asp-route-edad="33">
+    Enviar datos
+</a>

@@ -4,4 +4,4 @@ numero1 = int(input())
 print("Introduzca número 2")
 numero2 = int(input())
 suma = numero1 + numero2
-print("La suma es " + str(suma))
+print(f"La suma es {suma}")

@@ -1,0 +1,25 @@
+﻿@model Coche
+
+<h1 style="color:fuchsia">Controller 2 de Coche</h1>
+
+<img src="~/images/@Model.Imagen"
+    style="width: 200px; height: 250px"/>
+
+<h2>
+    Marca: @Model.Marca, Modelo: @Model.Modelo
+</h2>
+<h2 style="color:blue">
+    Velocidad máxima: @Model.VelocidadMaxima
+</h2>
+<h2 style="background-color: crimson; color:white">
+    Velocidad actual: @Model.Velocidad
+</h2>
+
+<form method="post">
+    <button class="btn btn-success" name="accion" value="acelerar">
+        Acelerar
+    </button>
+    <button class="btn btn-warning" name="accion" value="frenar">
+        Frenar
+    </button>
+</form>

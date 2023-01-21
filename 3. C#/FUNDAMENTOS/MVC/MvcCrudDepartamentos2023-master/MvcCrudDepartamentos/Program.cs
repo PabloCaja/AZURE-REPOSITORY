@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 string cadena =
-    builder.Configuration.GetConnectionString("sqlhospital");
+    builder.Configuration.GetConnectionString("sqlhospitalazure");
 RepositoryDepartamentos repo = new RepositoryDepartamentos(cadena);
 builder.Services.AddTransient<RepositoryDepartamentos>(x => repo);
 

@@ -1,0 +1,8 @@
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\RolPrueba\RolPrueba\obj\Debug\net6.0\RolPrueba.csproj.AssemblyReference.cache
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\RolPrueba\RolPrueba\obj\Debug\net6.0\RolPrueba.GeneratedMSBuildEditorConfig.editorconfig
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\RolPrueba\RolPrueba\obj\Debug\net6.0\RolPrueba.AssemblyInfoInputs.cache
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\RolPrueba\RolPrueba\obj\Debug\net6.0\RolPrueba.AssemblyInfo.cs
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\RolPrueba\RolPrueba\obj\Debug\net6.0\RolPrueba.csproj.CoreCompileInputs.cache
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\RolPrueba\RolPrueba\obj\Debug\net6.0\RolPrueba.MvcApplicationPartsAssemblyInfo.cache
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\RolPrueba\RolPrueba\obj\Debug\net6.0\RolPrueba.RazorAssemblyInfo.cache
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\RolPrueba\RolPrueba\obj\Debug\net6.0\RolPrueba.RazorAssemblyInfo.cs
