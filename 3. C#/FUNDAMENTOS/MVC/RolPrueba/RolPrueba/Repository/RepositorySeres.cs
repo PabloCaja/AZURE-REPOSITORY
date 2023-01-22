@@ -1,4 +1,6 @@
 ﻿using System.Data.SqlClient;
+using System.Globalization;
+using System.Numerics;
 using RolPrueba.Models;
 
 namespace RolPrueba.Repository
@@ -43,7 +45,7 @@ namespace RolPrueba.Repository
             return seres;
 
         }
-        public Seres FindSeres(int nombre)
+        public Seres FindSeres(string nombre)
         {
             string sql = "SELECT * FROM DEPT WHERE NOMBRE=@NOMBRE";
             SqlParameter pamid = new SqlParameter("@NOMBRE", nombre);
@@ -67,9 +69,9 @@ namespace RolPrueba.Repository
             this.com.Parameters.Clear();
             return ser;
         }
-        public void InsertDepartamento(int nombre, string especie, string planeta, string agresividad, string habilidades, string debilidad, string bioma)
+        public void InsertSeres(string nombre, string especie, string planeta, string agresividad, string habilidades, string debilidad, string bioma)
         {
-            string sql = "INSERT INTO DEPT VALUES (@ID, @NOMBRE, @LOCALIDAD)";
+            string sql = "INSERT INTO DEPT VALUES (@NOMBRE, @ESPECIE, @PLANETA, @AGRESIVIDAD, @HABILIDADES, @DEBILIDAD, @BIOMA)";
             SqlParameter pamnom = new SqlParameter("@NOMBRE", nombre);
             SqlParameter pamesp = new SqlParameter("@ESPECIE", especie);
             SqlParameter pampla = new SqlParameter("@PLANETA", planeta);
@@ -79,14 +81,51 @@ namespace RolPrueba.Repository
             SqlParameter pambio = new SqlParameter("@BIOMA", bioma);
 
 
-            this.com.Parameters.Add(pamid);
-            this.com.Parameters.Add(pamnombre);
-            this.com.Parameters.Add(pamlocalidad);
-            this.com.Parameters.Add(pamid);
-            this.com.Parameters.Add(pamnombre);
-            this.com.Parameters.Add(pamlocalidad);
-            this.com.Parameters.Add(pamid);
+            this.com.Parameters.Add(pamnom);
+            this.com.Parameters.Add(pamesp);
+            this.com.Parameters.Add(pampla);
+            this.com.Parameters.Add(pamagr);
+            this.com.Parameters.Add(pamhab);
+            this.com.Parameters.Add(pamdeb);
+            this.com.Parameters.Add(pambio);
 
+            this.com.CommandText = sql;
+            this.cn.Open();
+            this.com.ExecuteNonQuery();
+            this.cn.Close();
+            this.com.Parameters.Clear();
+        }
+        public void UpdateDepartamento(string nombre, string especie, string planeta, string agresividad, string habilidades, string debilidad, string bioma)
+        {
+            string sql = "UPDATE DEPT SET NOM=@NOMBRE, ESP=@ESPECIE, PLA=@PLANETA, AGR=@AGRESIVIDAD, HAB=@HABILIDADES, DEB=@DEBILIDAD, BIO=@BIOMA WHERE NOM=@NOMBRE";
+
+            SqlParameter pamnom = new SqlParameter("@NOMBRE", nombre);
+            SqlParameter pamesp = new SqlParameter("@ESPECIE", especie);
+            SqlParameter pampla = new SqlParameter("@PLANETA", planeta);
+            SqlParameter pamagr = new SqlParameter("@AGRESIVIDAD", agresividad);
+            SqlParameter pamhab = new SqlParameter("@HABILIDADES", habilidades);
+            SqlParameter pamdeb = new SqlParameter("@DEBILIDAD", debilidad);
+            SqlParameter pambio = new SqlParameter("@BIOMA", bioma);
+
+            this.com.Parameters.Add(pamnom);
+            this.com.Parameters.Add(pamesp);
+            this.com.Parameters.Add(pampla);
+            this.com.Parameters.Add(pamagr);
+            this.com.Parameters.Add(pamhab);
+            this.com.Parameters.Add(pamdeb);
+            this.com.Parameters.Add(pambio);
+
+            this.com.CommandText = sql;
+            this.cn.Open();
+            this.com.ExecuteNonQuery();
+            this.cn.Close();
+            this.com.Parameters.Clear();
+        }
+        public void DeleteSeres(String nombre)
+        {
+            string sql = "DELETE FROM DEPT WHERE NOM=@NOMBRE";
+            SqlParameter pamnom = new SqlParameter("@NOMBRE", nombre);
+            this.com.Parameters.Add(pamnom); 
             this.com.CommandText = sql;
             this.cn.Open();
             this.com.ExecuteNonQuery();

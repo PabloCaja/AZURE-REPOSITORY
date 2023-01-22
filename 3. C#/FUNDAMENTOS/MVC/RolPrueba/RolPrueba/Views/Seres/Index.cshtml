@@ -1,0 +1,82 @@
+﻿@model IEnumerable<RolPrueba.Models.Seres>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Listado de Seres</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+		<tr>            
+            <th>
+				@Html.DisplayNameFor(model => model.Nombre)
+			</th>
+            <th>
+                @Html.DisplayNameFor(model => model.Especie)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Planeta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Agresividad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Habilidades)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Debilidad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bioma)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Especie)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Planeta)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Agresividad)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Habilidades)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Debilidad)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Bioma)
+                </td>
+                <td>
+                    <a asp-controller="Seres"
+                    asp-action="Edit"
+                    asp-route-iddepartamento="@item.Nombre"
+                    class="btn btn-outline-info">
+                        Editar
+                    </a>
+                    <a asp-controller="Departamentos"
+                    asp-action="Delete"
+                    asp-route-iddepartamento="@item.Nombre"
+                    class="btn btn-outline-danger">
+                        Delete
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
