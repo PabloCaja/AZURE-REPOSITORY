@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>CochesNugets2023_Caja</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Authors>Pablo Caja</Authors>
+    <Title>CochesNuget2023-Azure</Title>
+  </PropertyGroup>
+
+</Project>

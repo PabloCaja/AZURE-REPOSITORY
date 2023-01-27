@@ -1,0 +1,65 @@
+﻿@model IEnumerable<RolPrueba1.Models.Fichapj>
+
+@{
+    ViewData["Title"] = "BuscarJugadorClase";
+}
+
+<h1>Ficha de personaje</h1>
+
+<form method="post">
+    <label>Introduzca una clase: </label>
+    <input type="text" name="clase" class="form-control" required/>
+    <button class="btn btn-info">
+        Buscar personas
+    </button>
+</form>
+
+<table class="table table-dark">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Jugador)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Personaje)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Objetos)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Unidades)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Notas)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Clase)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Jugador)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Personaje)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Objetos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Unidades)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Notas)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Clase)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

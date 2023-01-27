@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CochesNugets2023-Caja</id>
+    <version>1.0.0</version>
+    <title>CochesNuget2023-Azure</title>
+    <authors>Pablo Caja</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\CochesNugets2023-Caja\CochesNugets2023-Caja\bin\Release\net6.0\CochesNugets2023-Caja.dll" target="lib\net6.0\CochesNugets2023-Caja.dll" />
+  </files>
+</package>

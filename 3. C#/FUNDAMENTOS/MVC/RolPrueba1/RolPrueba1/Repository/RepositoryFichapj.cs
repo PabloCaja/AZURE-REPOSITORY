@@ -15,14 +15,14 @@ namespace RolPrueba1.Repository
 
         public List<Fichapj> GetFichapj()
         {
-            var consulta = from datos in this.context.Fichapj
+            var consulta = from datos in this.context.Fichapjs
                            select datos;
             return consulta.ToList();
         }
 
-        public List<Fichapj> GetPlantillaHospital(string jugador1)
+        public List<Fichapj> GetJugadorFicha(string jugador1)
         {
-            var consulta = from datos in this.context.Fichapj
+            var consulta = from datos in this.context.Fichapjs
                            where datos.Jugador == jugador1
                            select datos;
             return consulta.ToList();
@@ -30,7 +30,7 @@ namespace RolPrueba1.Repository
 
         public Fichapj FindFichapj(string jugador2)
         {
-            var consulta = from datos in this.context.Fichapj
+            var consulta = from datos in this.context.Fichapjs
                            where datos.Jugador == jugador2
                            select datos;
             return consulta.FirstOrDefault();
@@ -38,7 +38,7 @@ namespace RolPrueba1.Repository
 
         public List<Fichapj> GetJugadorClase(string clase)
         {
-            var consulta = from datos in this.context.Fichapj
+            var consulta = from datos in this.context.Fichapjs
                            where datos.Clase == clase
                            select datos;
             return consulta.ToList();
@@ -46,7 +46,7 @@ namespace RolPrueba1.Repository
 
         public List<string> GetClases()
         {
-            var consulta = (from datos in this.context.Fichapj
+            var consulta = (from datos in this.context.Fichapjs
                             select datos.Clase).Distinct();
             return consulta.ToList();
         }

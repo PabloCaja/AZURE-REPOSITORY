@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\RolPrueba1\RolPrueba1
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/RolPrueba1/RolPrueba1/Views/Ficha/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmljaGFcaW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/RolPrueba1/RolPrueba1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

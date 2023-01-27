@@ -1,0 +1,12 @@
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\CustomersApiNuget2023-Caja\CustomersApiNuget2023-Caja\bin\Release\net6.0\CustomersApiNuget2023-Caja.deps.json
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\CustomersApiNuget2023-Caja\CustomersApiNuget2023-Caja\bin\Release\net6.0\CustomersApiNuget2023-Caja.dll
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\CustomersApiNuget2023-Caja\CustomersApiNuget2023-Caja\bin\Release\net6.0\CustomersApiNuget2023-Caja.pdb
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\CustomersApiNuget2023-Caja\CustomersApiNuget2023-Caja\obj\Release\net6.0\CustomersApiNuget2023-Caja.csproj.AssemblyReference.cache
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\CustomersApiNuget2023-Caja\CustomersApiNuget2023-Caja\obj\Release\net6.0\CustomersApiNuget2023-Caja.GeneratedMSBuildEditorConfig.editorconfig
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\CustomersApiNuget2023-Caja\CustomersApiNuget2023-Caja\obj\Release\net6.0\CustomersApiNuget2023-Caja.AssemblyInfoInputs.cache
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\CustomersApiNuget2023-Caja\CustomersApiNuget2023-Caja\obj\Release\net6.0\CustomersApiNuget2023-Caja.AssemblyInfo.cs
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\CustomersApiNuget2023-Caja\CustomersApiNuget2023-Caja\obj\Release\net6.0\CustomersApiNuget2023-Caja.csproj.CoreCompileInputs.cache
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\CustomersApiNuget2023-Caja\CustomersApiNuget2023-Caja\obj\Release\net6.0\CustomersApiNuget2023-Caja.dll
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\CustomersApiNuget2023-Caja\CustomersApiNuget2023-Caja\obj\Release\net6.0\refint\CustomersApiNuget2023-Caja.dll
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\CustomersApiNuget2023-Caja\CustomersApiNuget2023-Caja\obj\Release\net6.0\CustomersApiNuget2023-Caja.pdb
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\CustomersApiNuget2023-Caja\CustomersApiNuget2023-Caja\obj\Release\net6.0\ref\CustomersApiNuget2023-Caja.dll

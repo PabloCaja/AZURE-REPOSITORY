@@ -12,7 +12,8 @@ namespace RolPrueba1.Data
         //DEBEMOS MAPEAR CADA CLASE MODEL DE LA BASE DE DATOS CON UN OBJETO
         //DbSet.  CADA TABLA DE LA BASE DE DATOS SERA UN DbSet CON UN MODEL.
         //NOSOTROS HAREMOS LAS CONSULTAS A DICHO DbSet
-        public DbSet<Fichapj> Fichapj { get; set; }
+        public DbSet<Fichapj> Fichapjs { get; set; }
+        public DbSet<Seres> Sere { get; set; }
 
     }
 }

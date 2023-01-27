@@ -1,0 +1,12 @@
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\CochesNugets2023-Caja\CochesNugets2023-Caja\bin\Release\net6.0\CochesNugets2023-Caja.deps.json
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\CochesNugets2023-Caja\CochesNugets2023-Caja\bin\Release\net6.0\CochesNugets2023-Caja.dll
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\CochesNugets2023-Caja\CochesNugets2023-Caja\bin\Release\net6.0\CochesNugets2023-Caja.pdb
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\CochesNugets2023-Caja\CochesNugets2023-Caja\obj\Release\net6.0\CochesNugets2023-Caja.csproj.AssemblyReference.cache
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\CochesNugets2023-Caja\CochesNugets2023-Caja\obj\Release\net6.0\CochesNugets2023-Caja.GeneratedMSBuildEditorConfig.editorconfig
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\CochesNugets2023-Caja\CochesNugets2023-Caja\obj\Release\net6.0\CochesNugets2023-Caja.AssemblyInfoInputs.cache
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\CochesNugets2023-Caja\CochesNugets2023-Caja\obj\Release\net6.0\CochesNugets2023-Caja.AssemblyInfo.cs
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\CochesNugets2023-Caja\CochesNugets2023-Caja\obj\Release\net6.0\CochesNugets2023-Caja.csproj.CoreCompileInputs.cache
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\CochesNugets2023-Caja\CochesNugets2023-Caja\obj\Release\net6.0\CochesNugets2023-Caja.dll
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\CochesNugets2023-Caja\CochesNugets2023-Caja\obj\Release\net6.0\refint\CochesNugets2023-Caja.dll
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\CochesNugets2023-Caja\CochesNugets2023-Caja\obj\Release\net6.0\CochesNugets2023-Caja.pdb
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\CochesNugets2023-Caja\CochesNugets2023-Caja\obj\Release\net6.0\ref\CochesNugets2023-Caja.dll

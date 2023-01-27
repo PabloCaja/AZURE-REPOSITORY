@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CustomersApiNuget2023-Caja.PGS</id>
+    <version>1.0.0</version>
+    <title>CustomersApiNuget2023-Caja</title>
+    <authors>Pablo Caja</authors>
+    <description>Juernes</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Newtonsoft.Json" version="13.0.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\CustomersApiNuget2023-Caja\CustomersApiNuget2023-Caja\bin\Release\net6.0\CustomersApiNuget2023-Caja.dll" target="lib\net6.0\CustomersApiNuget2023-Caja.dll" />
+  </files>
+</package>
