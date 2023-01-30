@@ -63,15 +63,20 @@
                     @Html.DisplayFor(modelItem => item.Bioma)
                 </td>
                 <td>
+                    <a asp-controller="Seres" 
+                     asp-action="Details" 
+                     asp-route-id="@item.Nombre"
+                     class="btn btn-outline-success">
+                        Detalles</a>
                     <a asp-controller="Seres"
-                    asp-action="Edit"
-                    asp-route-nombreseres="@item.Nombre"
+                    asp-action="Update"
+                    asp-route-id="@item.Nombre"
                     class="btn btn-outline-info">
                         Editar
                     </a>
                     <a asp-controller="Seres"
                     asp-action="Delete"
-                    asp-route-nombreseres="@item.Nombre"
+                    asp-route-id="@item.Nombre"
                     class="btn btn-outline-danger">
                         Delete
                     </a>

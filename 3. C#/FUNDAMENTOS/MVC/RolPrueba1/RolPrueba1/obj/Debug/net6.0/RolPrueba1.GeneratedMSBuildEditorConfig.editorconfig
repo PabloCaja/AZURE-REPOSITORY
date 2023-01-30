@@ -16,6 +16,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\RolPrueba1\RolPrueba1
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/RolPrueba1/RolPrueba1/Views/Ficha/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmljaGFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/RolPrueba1/RolPrueba1/Views/Ficha/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmljaGFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/RolPrueba1/RolPrueba1/Views/Ficha/Lista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmljaGFcTGlzdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/RolPrueba1/RolPrueba1/Views/Ficha/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmljaGFcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/RolPrueba1/RolPrueba1/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -28,16 +44,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VyZXNcY3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/RolPrueba1/RolPrueba1/Views/Seres/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VyZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/RolPrueba1/RolPrueba1/Views/Seres/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VyZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/RolPrueba1/RolPrueba1/Views/Seres/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VyZXNcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/RolPrueba1/RolPrueba1/Views/Seres/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VyZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/RolPrueba1/RolPrueba1/Views/Seres/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VyZXNcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/RolPrueba1/RolPrueba1/Views/Shared/Error.cshtml]

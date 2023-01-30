@@ -1,0 +1,65 @@
+﻿@model IEnumerable<RolPrueba1.Models.Fichapj>
+
+@{
+    ViewData["Title"] = "Lista";
+}
+
+<h1>Lista</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Jugador)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Personaje)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Objetos)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Unidades)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Notas)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Clase)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Jugador)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Personaje)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Objetos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Unidades)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Notas)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Clase)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
