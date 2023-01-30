@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\RolPrueba1.bundle.scp.css"
     },
     {
+      "Id": "C:\\1.AZURE REPOSITORY\\3. C#\\FUNDAMENTOS\\MVC\\RolPrueba1\\RolPrueba1\\wwwroot\\css\\estilos-m.css",
+      "PackagePath": "staticwebassets\\css\\estilos-m.css"
+    },
+    {
       "Id": "C:\\1.AZURE REPOSITORY\\3. C#\\FUNDAMENTOS\\MVC\\RolPrueba1\\RolPrueba1\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -13,8 +17,28 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\1.AZURE REPOSITORY\\3. C#\\FUNDAMENTOS\\MVC\\RolPrueba1\\RolPrueba1\\wwwroot\\img\\Prey-logo.png",
-      "PackagePath": "staticwebassets\\img\\Prey-logo.png"
+      "Id": "C:\\1.AZURE REPOSITORY\\3. C#\\FUNDAMENTOS\\MVC\\RolPrueba1\\RolPrueba1\\wwwroot\\img\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\2.jpg"
+    },
+    {
+      "Id": "C:\\1.AZURE REPOSITORY\\3. C#\\FUNDAMENTOS\\MVC\\RolPrueba1\\RolPrueba1\\wwwroot\\img\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\3.jpg"
+    },
+    {
+      "Id": "C:\\1.AZURE REPOSITORY\\3. C#\\FUNDAMENTOS\\MVC\\RolPrueba1\\RolPrueba1\\wwwroot\\img\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\4.jpg"
+    },
+    {
+      "Id": "C:\\1.AZURE REPOSITORY\\3. C#\\FUNDAMENTOS\\MVC\\RolPrueba1\\RolPrueba1\\wwwroot\\img\\5.jpg",
+      "PackagePath": "staticwebassets\\img\\5.jpg"
+    },
+    {
+      "Id": "C:\\1.AZURE REPOSITORY\\3. C#\\FUNDAMENTOS\\MVC\\RolPrueba1\\RolPrueba1\\wwwroot\\img\\6.jpg",
+      "PackagePath": "staticwebassets\\img\\6.jpg"
+    },
+    {
+      "Id": "C:\\1.AZURE REPOSITORY\\3. C#\\FUNDAMENTOS\\MVC\\RolPrueba1\\RolPrueba1\\wwwroot\\img\\banner.jpg",
+      "PackagePath": "staticwebassets\\img\\banner.jpg"
     },
     {
       "Id": "C:\\1.AZURE REPOSITORY\\3. C#\\FUNDAMENTOS\\MVC\\RolPrueba1\\RolPrueba1\\wwwroot\\img\\carina-nebula-cosmic-cliffs-james-webb-space-telescope-7680x4448-8689.jpg",
@@ -25,8 +49,8 @@
       "PackagePath": "staticwebassets\\img\\logo-transtar.png"
     },
     {
-      "Id": "C:\\1.AZURE REPOSITORY\\3. C#\\FUNDAMENTOS\\MVC\\RolPrueba1\\RolPrueba1\\wwwroot\\img\\nebula-backgruond.jpg",
-      "PackagePath": "staticwebassets\\img\\nebula-backgruond.jpg"
+      "Id": "C:\\1.AZURE REPOSITORY\\3. C#\\FUNDAMENTOS\\MVC\\RolPrueba1\\RolPrueba1\\wwwroot\\img\\uno.jpg",
+      "PackagePath": "staticwebassets\\img\\uno.jpg"
     },
     {
       "Id": "C:\\1.AZURE REPOSITORY\\3. C#\\FUNDAMENTOS\\MVC\\RolPrueba1\\RolPrueba1\\wwwroot\\js\\site.js",
