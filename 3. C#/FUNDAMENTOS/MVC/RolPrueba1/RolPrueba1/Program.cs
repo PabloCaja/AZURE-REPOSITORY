@@ -7,20 +7,9 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-String cadena = builder.Configuration.GetConnectionString("sqlcriaturas");
-RepositorySeres repo = new RepositorySeres(cadena);
-builder.Services.AddTransient<RepositorySeres>(x => repo);
-    
-string connectionString = builder.Configuration.GetConnectionString("sqlcriaturas");
-builder.Services.AddTransient<RepositoryFichapj>();
-
-
-//LAS CLASES CONTEXT DE ACCESO A DATOS UTILIZAN
-//UN METODO ESPECIAL LLAMADO AddDbContext
-builder.Services.AddDbContext<FichapjContext>
-    (options => options.UseSqlServer(connectionString));
-
-
+string connectionString = builder.Configuration.GetConnectionString("Sqlcriaturas");
+builder.Services.AddTransient<RepositorySeres>();
+builder.Services.AddDbContext<SeresContext>(options => options.UseSqlServer(connectionString));
 
 var app = builder.Build();
 

@@ -13,6 +13,22 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\1.AZURE REPOSITORY\\3. C#\\FUNDAMENTOS\\MVC\\RolPrueba1\\RolPrueba1\\wwwroot\\img\\Prey-logo.png",
+      "PackagePath": "staticwebassets\\img\\Prey-logo.png"
+    },
+    {
+      "Id": "C:\\1.AZURE REPOSITORY\\3. C#\\FUNDAMENTOS\\MVC\\RolPrueba1\\RolPrueba1\\wwwroot\\img\\carina-nebula-cosmic-cliffs-james-webb-space-telescope-7680x4448-8689.jpg",
+      "PackagePath": "staticwebassets\\img\\carina-nebula-cosmic-cliffs-james-webb-space-telescope-7680x4448-8689.jpg"
+    },
+    {
+      "Id": "C:\\1.AZURE REPOSITORY\\3. C#\\FUNDAMENTOS\\MVC\\RolPrueba1\\RolPrueba1\\wwwroot\\img\\logo-transtar.png",
+      "PackagePath": "staticwebassets\\img\\logo-transtar.png"
+    },
+    {
+      "Id": "C:\\1.AZURE REPOSITORY\\3. C#\\FUNDAMENTOS\\MVC\\RolPrueba1\\RolPrueba1\\wwwroot\\img\\nebula-backgruond.jpg",
+      "PackagePath": "staticwebassets\\img\\nebula-backgruond.jpg"
+    },
+    {
       "Id": "C:\\1.AZURE REPOSITORY\\3. C#\\FUNDAMENTOS\\MVC\\RolPrueba1\\RolPrueba1\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

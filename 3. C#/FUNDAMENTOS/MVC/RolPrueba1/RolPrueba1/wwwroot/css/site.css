@@ -1,5 +1,6 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
+
 }
 
 @media (min-width: 768px) {
@@ -9,10 +10,15 @@ html {
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
+
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-image: url(/img/carina-nebula-cosmic-cliffs-james-webb-space-telescope-7680x4448-8689.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }

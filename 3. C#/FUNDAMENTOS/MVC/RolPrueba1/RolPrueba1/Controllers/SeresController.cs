@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Drawing;
+using System.Numerics;
+using Microsoft.AspNetCore.Mvc;
 using RolPrueba1.Models;
 using RolPrueba1.Repository;
 
@@ -6,57 +8,61 @@ namespace RolPrueba1.Controllers
 {
     public class SeresController : Controller
     {
-        RepositorySeres repo;
-
+        //Llamamos al repositorio para poder usarlo desde el controlador
+        private RepositorySeres repo;
         public SeresController(RepositorySeres repo)
         {
             this.repo = repo;
         }
 
-        //AQUI MOSTRAMOS TODOS LOS DEPARTAMENTOS
+        // Desde la vista index, llamamos a la lista de Seres
         public IActionResult Index()
         {
             List<Seres> seres = this.repo.GetSeres();
             return View(seres);
         }
 
+        // Desde la vista Details, llamamos a los detalles de la serie
+        // Recibiendo la ID
+        public IActionResult Details(string id)
+        {
+            Seres ser = this.repo.GetOneSer(id);
+            return View(ser);
+        }
+
+
+        // Crear una vista para crear una nueva criatura
         public IActionResult Create()
         {
             return View();
         }
-        //VAMOS A RECIBIR TODO EL OBJETO DEPARTAMENTO
-        //TENEMOS DOS OPCIONES:
-        //1) RECIBIMOS TODO EL OBJETO
-        //2) RECIBIMOS CADA VARIABLE
+
         [HttpPost]
         public IActionResult Create(Seres ser)
         {
-            this.repo.InsertSeres(ser.Nombre, ser.Especie, ser.Planeta, ser.Agresividad, ser.Habilidades, ser.Debilidad, ser.Bioma);
-            //EN LUGAR DE MOSTRAR UN MENSAJE O ALGO, LO QUE VAMOS A REALIZAR
-            //ES VOLVER A LA VISTA DONDE ESTAN TODOS LOS DEPARTAMENTOS (Index)
+            this.repo.AddSer(ser);
             return RedirectToAction("Index");
         }
 
-        //AL EDITAR, VAMOS A RECIBIR UN ID DEL DEPARTAMENTO
-        //LO QUE HAREMOS SERA BUSCAR EL DEPARTAMENTO POR SU ID
-        //Y LO ENVIAREMOS A LA VISTA PARA MOSTRAR SUS DATOS 
-        //EN LAS CAJAS
-        public IActionResult Edit(string nombreseres)
+        // realizamos el update con su post 
+        public IActionResult Update(string id)
         {
-            Seres ser = this.repo.FindSeres(nombreseres);
+            Seres ser = this.repo.FindSer(id);
             return View(ser);
         }
 
         [HttpPost]
-        public IActionResult Edit(Seres ser)
+        public IActionResult Update(Seres ser)
         {
-            this.repo.UpdateDepartamento(ser.Nombre, ser.Especie, ser.Planeta, ser.Agresividad, ser.Habilidades, ser.Debilidad, ser.Bioma);
+            this.repo.UpdateSer(ser.Nombre, ser.Especie, ser.Planeta,
+            ser.Agresividad, ser.Habilidades, ser.Debilidad, ser.Bioma);
             return RedirectToAction("Index");
         }
 
-        public IActionResult Delete(string nombreseres)
+        // delete rows
+        public IActionResult Delete(string id)
         {
-            this.repo.DeleteSeres(nombreseres);
+            this.repo.DeleteSeres(id);
             return RedirectToAction("Index");
         }
     }
