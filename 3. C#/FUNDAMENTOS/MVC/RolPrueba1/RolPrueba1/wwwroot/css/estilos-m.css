@@ -5,7 +5,6 @@
 }
 
 body {
-	
 	color: black;
 	font-family: 'Roboto', sans-serif;
 	min-height: 100vh;
@@ -13,15 +12,10 @@ body {
 }
 
 .contenedor {
-	
 	width: 100%;
 	max-width: 1200px;
 	margin: auto;
 	padding: 40px 0;
-	/* Flexbox */
-	/* display: flex;
-	gap: 20px; */
-	/* Grid */
 	display: grid;
 	grid-template-columns: 3fr;
 	gap: 20px;
@@ -33,13 +27,6 @@ body {
 }
 
 .contenedor-conciertos {
-	/* Flexbox */
-	/* width: 70%;
-
-	display: flex;
-	flex-wrap: wrap;
-	gap: 20px; */
-	/* Grid */
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 20px;
@@ -55,25 +42,18 @@ body {
 	overflow: hidden;
 	background-size: cover;
 	background-position: center center;
-	/* Flexbox */
-	/* width: calc(33.33% - 20px); */
+
 
 }
 
 	.card .textos {
 		height: 100%;
-		/* Flebox */
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-		/* Grid */
-		/* display: grid;
-	grid-template-rows: 1fr auto; */
+
 		
 	}
-
-
-
 
 
 @media screen and (max-width: 900px) {

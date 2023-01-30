@@ -1,0 +1,101 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = RolPrueba1
+build_property.RootNamespace = RolPrueba1
+build_property.ProjectDir = C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\RolPrueba1\RolPrueba1\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\MVC\RolPrueba1\RolPrueba1
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/RolPrueba1/RolPrueba1/Views/Ficha/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmljaGFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/RolPrueba1/RolPrueba1/Views/Ficha/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmljaGFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/RolPrueba1/RolPrueba1/Views/Ficha/Lista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmljaGFcTGlzdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/RolPrueba1/RolPrueba1/Views/Ficha/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmljaGFcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/RolPrueba1/RolPrueba1/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/RolPrueba1/RolPrueba1/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/RolPrueba1/RolPrueba1/Views/Jugadores/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSnVnYWRvcmVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/RolPrueba1/RolPrueba1/Views/Jugadores/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSnVnYWRvcmVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/RolPrueba1/RolPrueba1/Views/Jugadores/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSnVnYWRvcmVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/RolPrueba1/RolPrueba1/Views/Jugadores/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSnVnYWRvcmVzXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/RolPrueba1/RolPrueba1/Views/Seres/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VyZXNcY3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/RolPrueba1/RolPrueba1/Views/Seres/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VyZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/RolPrueba1/RolPrueba1/Views/Seres/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VyZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/RolPrueba1/RolPrueba1/Views/Seres/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VyZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/RolPrueba1/RolPrueba1/Views/Seres/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VyZXNcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/RolPrueba1/RolPrueba1/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/RolPrueba1/RolPrueba1/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/RolPrueba1/RolPrueba1/Views/testeo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdGVzdGVvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/RolPrueba1/RolPrueba1/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/RolPrueba1/RolPrueba1/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/1.AZURE REPOSITORY/3. C\#/FUNDAMENTOS/MVC/RolPrueba1/RolPrueba1/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-2nv4omts93
