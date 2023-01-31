@@ -8,7 +8,7 @@ body {
 	color: black;
 	font-family: 'Roboto', sans-serif;
 	min-height: 100vh;
-	
+
 }
 
 .contenedor {
@@ -19,6 +19,7 @@ body {
 	display: grid;
 	grid-template-columns: 3fr;
 	gap: 20px;
+	
 }
 
 .titulo {
@@ -30,7 +31,7 @@ body {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 20px;
-	
+
 }
 
 .card {
@@ -42,8 +43,7 @@ body {
 	overflow: hidden;
 	background-size: cover;
 	background-position: center center;
-
-
+	/*background-image: url(https://img.freepik.com/fotos-premium/fondo-espacio-exterior-profundo-estrellas-nebulosas-ai-generativo_337384-4108.jpg?w=1380)*/
 }
 
 	.card .textos {
@@ -51,8 +51,7 @@ body {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-
-		
+		/*background-image: url(https://img.freepik.com/fotos-premium/fondo-espacio-exterior-profundo-estrellas-nebulosas-ai-generativo_337384-4108.jpg?w=1380)*/
 	}
 
 
