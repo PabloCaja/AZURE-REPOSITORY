@@ -1,0 +1,55 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@section scripts{
+        <script>
+            $(document).ready(function() {
+                $("#botonpersonas").click(function() {
+                    var url = "https://apipersonas2023pgs.azurewebsites.net/api/personas";
+                    $.ajax({
+                        url: url,
+                        method: "GET",
+                        success: function(data) {
+                            //EN LA VARIABLE data VIENEN LOS DATOS json
+                            //DEL SERVICIO
+                            var html = "";
+                            //RECORREMOS LOS DATOS
+                            $.each(data, function(index, persona) {
+                                //LAS PROPIEADES DEL JSON SON DINAMICAS
+                                //ES DECIR, LAS ESCRIBIMOS DIRECTAMENTE COMO ESTAN 
+                                //EN EL SERVICIO API
+                                var id = persona.idPersona;
+                                var nombre = persona.nombre;
+                                var edad = persona.edad;
+                                //CREAMOS UNA TABLA CON CODIGO JAVASCRIPT
+                                html += "<tr>";
+                                html += "<td>" + id + "</td>";
+                                html += "<td>" + nombre + "</td>";
+                                html += "<td>" + edad + "</td>";
+                                html += "</tr>";
+                            })
+                            $("#tablapersonas tbody").html(html);
+                        }
+                    })
+                })
+            })
+        </script>
+}
+
+<div class="text-center">
+    <h1 class="display-4">Personas API Jquery</h1>
+    <button type="button" id="botonpersonas" class="btn btn-info">
+        Leer API Personas
+    </button>
+    <table id="tablapersonas" class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>

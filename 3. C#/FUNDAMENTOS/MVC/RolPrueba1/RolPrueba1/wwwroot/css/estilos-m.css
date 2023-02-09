@@ -43,7 +43,8 @@ body {
 	overflow: hidden;
 	background-size: cover;
 	background-position: center center;
-	/*background-image: url(https://img.freepik.com/fotos-premium/fondo-espacio-exterior-profundo-estrellas-nebulosas-ai-generativo_337384-4108.jpg?w=1380)*/
+	
+	
 }
 
 	.card .textos {
@@ -51,7 +52,7 @@ body {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-		/*background-image: url(https://img.freepik.com/fotos-premium/fondo-espacio-exterior-profundo-estrellas-nebulosas-ai-generativo_337384-4108.jpg?w=1380)*/
+		
 	}
 
 

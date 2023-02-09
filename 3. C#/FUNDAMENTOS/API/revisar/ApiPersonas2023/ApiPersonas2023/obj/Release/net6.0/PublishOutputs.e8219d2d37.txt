@@ -1,0 +1,11 @@
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\API\ApiPersonas2023\ApiPersonas2023\obj\Release\net6.0\PubTmp\Out\ApiPersonas2023.exe
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\API\ApiPersonas2023\ApiPersonas2023\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\API\ApiPersonas2023\ApiPersonas2023\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\API\ApiPersonas2023\ApiPersonas2023\obj\Release\net6.0\PubTmp\Out\ApiPersonas2023.dll
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\API\ApiPersonas2023\ApiPersonas2023\obj\Release\net6.0\PubTmp\Out\ApiPersonas2023.deps.json
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\API\ApiPersonas2023\ApiPersonas2023\obj\Release\net6.0\PubTmp\Out\ApiPersonas2023.runtimeconfig.json
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\API\ApiPersonas2023\ApiPersonas2023\obj\Release\net6.0\PubTmp\Out\ApiPersonas2023.pdb
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\API\ApiPersonas2023\ApiPersonas2023\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\API\ApiPersonas2023\ApiPersonas2023\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\API\ApiPersonas2023\ApiPersonas2023\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\1.AZURE REPOSITORY\3. C#\FUNDAMENTOS\API\ApiPersonas2023\ApiPersonas2023\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

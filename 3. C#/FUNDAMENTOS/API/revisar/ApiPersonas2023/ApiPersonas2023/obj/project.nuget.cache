@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "notvD2h2ddt49Sb2Nh4bM0FV2Mc8z0mRSzFv6hwsX1AgCTrL6/MNXAzFhIMhcqeYICvn5qQ0aag72HEntFhbIA==",
+  "success": true,
+  "projectFilePath": "C:\\1.AZURE REPOSITORY\\3. C#\\FUNDAMENTOS\\API\\ApiPersonas2023\\ApiPersonas2023\\ApiPersonas2023.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\paulb\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\paulb\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\paulb\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\paulb\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\paulb\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\paulb\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
