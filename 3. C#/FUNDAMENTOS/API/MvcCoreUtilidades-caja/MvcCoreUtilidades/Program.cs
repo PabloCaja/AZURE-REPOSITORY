@@ -2,12 +2,20 @@ using MvcCoreUtilidades.Helpers;
 using MvcCoreUtilidades.Services;
 
 var builder = WebApplication.CreateBuilder(args);
+string urlApiToken =
+    builder.Configuration.GetValue<string>("ApiUrls:ApiToken");
+builder.Services.AddTransient<ServiceAzureAlumnos>
+    (x => new ServiceAzureAlumnos(urlApiToken));
+
 string azureKeys =
     builder.Configuration.GetConnectionString("azurestoragekeys");
 builder.Services.AddTransient<ServiceStorageFiles>
     (x => new ServiceStorageFiles(azureKeys));
 builder.Services.AddTransient<ServiceStorageBlobs>
     (x => new ServiceStorageBlobs(azureKeys));
+builder.Services.AddTransient<ServiceStorageTables>
+    (z => new ServiceStorageTables(azureKeys));
+
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<HelperPathProvider>();

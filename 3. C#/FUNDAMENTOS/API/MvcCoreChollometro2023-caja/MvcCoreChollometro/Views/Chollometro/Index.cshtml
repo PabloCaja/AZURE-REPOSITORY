@@ -1,0 +1,14 @@
+﻿@model List<Chollo>
+
+<h1>Chollometro</h1>
+
+@foreach (Chollo chollo in Model){
+    <hr/>
+        <h2 style="color:blue">@chollo.Titulo</h2>
+        <a href="@chollo.Link">@chollo.Link</a>
+        <h2 style="color:red">Fecha: @chollo.Fecha</h2>
+        <div>
+            @Html.Raw(chollo.Descripcion)
+        </div>
+    <hr/>
+}
